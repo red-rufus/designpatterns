@@ -4,8 +4,9 @@ import pattern.abstractfactory.dao.DAO;
 import pattern.abstractfactory.dao.DBCourseDao;
 import pattern.abstractfactory.dao.DBStudentDao;
 
-public class DBDAOFactory {
-	public static DAO createDAO(String type) {
+public class DBDAOFactory implements DAOFactory{
+	@Override
+	public DAO createDAO(String type) {
 		if(type.equalsIgnoreCase("student")) {
 			return new DBStudentDao();
 		} else if(type.equalsIgnoreCase("course")) {
