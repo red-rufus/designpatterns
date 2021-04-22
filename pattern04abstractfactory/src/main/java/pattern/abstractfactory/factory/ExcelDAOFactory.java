@@ -1,4 +1,8 @@
-package pattern.abstractfactory.dao;
+package pattern.abstractfactory.factory;
+
+import pattern.abstractfactory.dao.DAO;
+import pattern.abstractfactory.dao.ExcelCourseDao;
+import pattern.abstractfactory.dao.ExcelStudentDao;
 
 public class ExcelDAOFactory {
 	public static DAO createDAO(String type) {

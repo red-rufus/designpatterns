@@ -1,8 +1,8 @@
 package pattern.abstractfactory.test;
 
 import pattern.abstractfactory.dao.DAO;
-import pattern.abstractfactory.dao.DBDAOFactory;
-import pattern.abstractfactory.dao.ExcelDAOFactory;
+import pattern.abstractfactory.factory.DBDAOFactory;
+import pattern.abstractfactory.factory.ExcelDAOFactory;
 
 public class BadClientApp {
 

@@ -1,7 +1,7 @@
 package pattern.abstractfactory.test;
 
 import pattern.abstractfactory.dao.DAO;
-import pattern.abstractfactory.dao.ExcelDAOFactory;
+import pattern.abstractfactory.factory.ExcelDAOFactory;
 
 public class GoodClientApp {
 

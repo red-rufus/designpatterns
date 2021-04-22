@@ -1,4 +1,8 @@
-package pattern.abstractfactory.dao;
+package pattern.abstractfactory.factory;
+
+import pattern.abstractfactory.dao.DAO;
+import pattern.abstractfactory.dao.DBCourseDao;
+import pattern.abstractfactory.dao.DBStudentDao;
 
 public class DBDAOFactory {
 	public static DAO createDAO(String type) {
